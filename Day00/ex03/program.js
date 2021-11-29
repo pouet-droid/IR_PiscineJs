@@ -1,6 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 //          Retourne l'emplacement (en chiffre) du premier caractère non répéter         //
 ///////////////////////////////////////////////////////////////////////////////////////////
+//Test : console.log(firstNonRepeatingCharacter("aazzcce"))
 function firstNonRepeatingCharacter(string) {
     const characters = {};
 
@@ -19,8 +20,4 @@ function firstNonRepeatingCharacter(string) {
     }
     return -1;
 }
-console.time('test');
-console.log(firstNonRepeatingCharacter("aazzcce"))
-console.timeEnd('test');
-    
 exports.firstNonRepeatingCharacter = firstNonRepeatingCharacter;
