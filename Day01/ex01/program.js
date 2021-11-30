@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
-//  Retourne un tableau de chiffre multiplié par eux même et ranger par ordre croissant  //
+//      Retourne le premier chiffre écrit plusieurs fois (2 c'est plusieurs aussi)       //
 ///////////////////////////////////////////////////////////////////////////////////////////
 //Test : console.log(firstDuplicateValue([ 1, 2, 3, 4, 5, 2]))
 function firstDuplicateValue(array){
